@@ -1,0 +1,7 @@
+.searchBar input {
+    margin:1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none;
+}

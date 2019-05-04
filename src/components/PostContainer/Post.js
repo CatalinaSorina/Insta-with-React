@@ -2,16 +2,16 @@ import React from 'react';
 
 import CommentSection from '../CommentSection/CommentSection';
 
-// ❤
+// ❤️
 const Post = (props) => {
 	return (
 		<div className="post">
 			<div>
-				<img className="userPic" url={props.userImg} alt="user:" /> {props.username}
+				<img className="userPic" src={props.userImg} alt="user" /> {props.username}:
 			</div>
-			<img url={props.img} alt="no pic" />
-			<div>
-				{props.likes} ♡ {props.commentsNumber} ✉
+			<img className="postImg" src={props.img} alt="no pic" />
+			<div className="postFrequency">
+				♡ {props.likes} 💬 {props.commentsNumber} 👁 {props.seen}
 			</div>
 			<CommentSection comments={props.comments} />
 		</div>
