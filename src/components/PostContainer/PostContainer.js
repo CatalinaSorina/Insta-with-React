@@ -30,7 +30,20 @@ PostContainer.propTypes = {
 	posts: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string,
-			username: PropTypes.string
+			username: PropTypes.string,
+			text: PropTypes.string,
+			userimg: PropTypes.string,
+			imageUrl: PropTypes.string,
+			likes: PropTypes.number,
+			seen: PropTypes.number,
+			timestamp: PropTypes.string,
+			comments: PropTypes.arrayOf(
+				PropTypes.shape({
+					id: PropTypes.string,
+					username: PropTypes.string,
+					text: PropTypes.string
+				})
+			)
 		})
 	)
 };
