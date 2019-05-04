@@ -1,13 +1,12 @@
 import React from 'react';
 
 import Post from './Post';
-import posts from '../posts';
 import './PostContainer.css';
 
-const PostContainer = () => {
+const PostContainer = (props) => {
 	return (
 		<div className="postContainer">
-			{posts.map((post) => (
+			{props.posts.map((post) => (
 				<Post
 					key={post.id}
 					userImg={post.userimg}
