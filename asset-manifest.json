@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CatalinaSorina/Insta-with-React.git/static/css/main.7c89110e.chunk.css",
-    "main.js": "/CatalinaSorina/Insta-with-React.git/static/js/main.d8cfa47f.chunk.js",
-    "main.js.map": "/CatalinaSorina/Insta-with-React.git/static/js/main.d8cfa47f.chunk.js.map",
-    "runtime~main.js": "/CatalinaSorina/Insta-with-React.git/static/js/runtime~main.e8d0f685.js",
-    "runtime~main.js.map": "/CatalinaSorina/Insta-with-React.git/static/js/runtime~main.e8d0f685.js.map",
-    "static/js/2.d6a534e5.chunk.js": "/CatalinaSorina/Insta-with-React.git/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/CatalinaSorina/Insta-with-React.git/static/js/2.d6a534e5.chunk.js.map",
-    "index.html": "/CatalinaSorina/Insta-with-React.git/index.html",
-    "precache-manifest.2cb01413e61aca931a419d8203bfeea2.js": "/CatalinaSorina/Insta-with-React.git/precache-manifest.2cb01413e61aca931a419d8203bfeea2.js",
-    "service-worker.js": "/CatalinaSorina/Insta-with-React.git/service-worker.js",
-    "static/css/main.7c89110e.chunk.css.map": "/CatalinaSorina/Insta-with-React.git/static/css/main.7c89110e.chunk.css.map"
+    "main.css": "/Insta-with-React/static/css/main.7c89110e.chunk.css",
+    "main.js": "/Insta-with-React/static/js/main.d8cfa47f.chunk.js",
+    "main.js.map": "/Insta-with-React/static/js/main.d8cfa47f.chunk.js.map",
+    "runtime~main.js": "/Insta-with-React/static/js/runtime~main.df435ebd.js",
+    "runtime~main.js.map": "/Insta-with-React/static/js/runtime~main.df435ebd.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/Insta-with-React/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/Insta-with-React/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/Insta-with-React/index.html",
+    "precache-manifest.bb2280ff1a39b8bae57cbefd59e8c72f.js": "/Insta-with-React/precache-manifest.bb2280ff1a39b8bae57cbefd59e8c72f.js",
+    "service-worker.js": "/Insta-with-React/service-worker.js",
+    "static/css/main.7c89110e.chunk.css.map": "/Insta-with-React/static/css/main.7c89110e.chunk.css.map"
   }
 }
