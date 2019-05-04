@@ -6,7 +6,7 @@ import './PostContainer.css';
 
 const PostContainer = () => {
 	return (
-		<div>
+		<div className="postContainer">
 			{posts.map((post) => (
 				<Post
 					key={post.id}
@@ -15,7 +15,9 @@ const PostContainer = () => {
 					img={post.imageUrl}
 					likes={post.likes}
 					commentsNumber={post.comments.length}
-					comments={post.comments}
+					seen={post.seen}
+                    comments={post.comments}
+                    commentsId={post.id}
 				/>
 			))}
 		</div>
