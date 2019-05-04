@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Post from './Post';
 import './PostContainer.css';
@@ -23,6 +24,15 @@ const PostContainer = (props) => {
 			))}
 		</div>
 	);
+};
+
+PostContainer.propTypes = {
+	posts: PropTypes.arrayOf(
+		PropTypes.shape({
+			id: PropTypes.string,
+			username: PropTypes.string
+		})
+	)
 };
 
 export default PostContainer;

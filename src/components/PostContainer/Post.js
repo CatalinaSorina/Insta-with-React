@@ -15,11 +15,11 @@ const Post = (props) => {
 			</div>
 			<img className="postImg" src={props.img} alt="no pic" />
 			<div className="postFrequency">
-				<button>♡ {props.likes}</button>
+				<button><span role="img" aria-label="love">♡</span> {props.likes}</button>
 				<button onClick={() => props.showComments('#comments' + props.commentsId)}>
-					💬 {props.commentsNumber}
+				<span role="img" aria-label="chats">💬</span> {props.commentsNumber}
 				</button>
-				👁 {props.seen}
+				<span role="img" aria-label="seen">👁</span> {props.seen}
 			</div>
 			<CommentSection
 				id={'comments' + props.commentsId}
