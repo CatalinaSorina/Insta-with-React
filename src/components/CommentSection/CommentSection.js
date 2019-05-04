@@ -10,7 +10,12 @@ class CommentSection extends React.Component {
 		};
 	}
 
-	// this.setState({comments:this.props.comments});
+	componentDidMount() {
+		// this.props.comments.map((comment)=>console.log(comment));
+		this.setState({
+			comments: this.props.comments
+		});
+	}
 
 	render() {
 		return (

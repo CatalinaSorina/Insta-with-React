@@ -13,7 +13,7 @@ const Post = (props) => {
 			<div className="postFrequency">
 				♡ {props.likes} 💬 {props.commentsNumber} 👁 {props.seen}
 			</div>
-			<CommentSection comments={props.comments} />
+			<CommentSection key={'comments' + props.commentsId} comments={props.comments} />
 		</div>
 	);
 };

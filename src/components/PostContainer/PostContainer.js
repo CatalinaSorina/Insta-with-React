@@ -16,7 +16,8 @@ const PostContainer = () => {
 					likes={post.likes}
 					commentsNumber={post.comments.length}
 					seen={post.seen}
-					comments={post.comments}
+                    comments={post.comments}
+                    commentsId={post.id}
 				/>
 			))}
 		</div>
