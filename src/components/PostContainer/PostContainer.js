@@ -9,11 +9,13 @@ const PostContainer = (props) => {
 		<div className="postContainer">
 			{props.posts.map((post) => (
 				<Post
+					id={'post'+post.id}
 					key={post.id}
 					userImg={post.userimg}
 					username={post.username}
 					text={post.text}
 					img={post.imageUrl}
+					giveLove={props.giveLove}
 					likes={post.likes}
 					showComments={props.showComments}
 					commentsNumber={post.comments.length}

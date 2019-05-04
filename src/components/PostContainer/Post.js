@@ -2,7 +2,6 @@ import React from 'react';
 
 import CommentSection from '../CommentSection/CommentSection';
 
-// ❤️
 const Post = (props) => {
 	return (
 		<div className="post">
@@ -15,7 +14,7 @@ const Post = (props) => {
 			</div>
 			<img className="postImg" src={props.img} alt="no pic" />
 			<div className="postFrequency">
-				<button><span role="img" aria-label="love">♡</span> {props.likes}</button>
+				<button onClick={props.giveLove}>♡ {props.likes}</button>
 				<button onClick={() => props.showComments('#comments' + props.commentsId)}>
 				<span role="img" aria-label="chats">💬</span> {props.commentsNumber}
 				</button>

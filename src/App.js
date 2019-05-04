@@ -13,6 +13,19 @@ class App extends React.Component {
 		};
 	}
 
+	giveLove = (postLikes) => {
+		const clicked = postLikes.target;
+		// console.log(clicked);
+		let clickedText = clicked.textContent.split(' ');
+		// console.log(clickedText);
+		if (clickedText[0] === '♡') {
+			clicked.textContent = '❤️ ' + (Number(clickedText[1]) + 1);
+		} else {
+			// console.log(clicked.textContent);
+			clicked.textContent = '♡ ' + (Number(clickedText[1]) - 1);
+		}
+	};
+
 	showComments = (comentsId) => {
 		const postComments = document.querySelector(comentsId);
 		// console.log(postComments.className);
@@ -23,7 +36,7 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<SearchBar />
-				<PostContainer posts={this.state.posts} showComments={this.showComments} />
+				<PostContainer posts={this.state.posts} giveLove={this.giveLove} showComments={this.showComments} />
 			</div>
 		);
 	}
