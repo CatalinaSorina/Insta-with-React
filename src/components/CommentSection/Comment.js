@@ -2,7 +2,7 @@ import React from 'react';
 
 const Comment = (props) => {
 	return (
-		<div style="background-color: red;">
+		<div>
 			{props.username}: {props.comment}
 		</div>
 	);
