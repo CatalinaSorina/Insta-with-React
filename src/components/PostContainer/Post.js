@@ -6,8 +6,12 @@ import CommentSection from '../CommentSection/CommentSection';
 const Post = (props) => {
 	return (
 		<div className="post">
-			<div>
-				<img className="userPic" src={props.userImg} alt="user" /> {props.username}:
+			<div className="userPost">
+				<span>
+					<img className="userPic" src={props.userImg} alt="user" />
+					<text className="username">{props.username}:</text>
+				</span>
+				<text className="userCommentPost">{props.text}</text>
 			</div>
 			<img className="postImg" src={props.img} alt="no pic" />
 			<div className="postFrequency">
