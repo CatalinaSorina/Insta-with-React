@@ -6,6 +6,13 @@ import posts from './components/posts';
 import PostContainer from './components/PostContainer/PostContainer';
 
 class App extends React.Component {
+	constructor() {
+		super();
+		this.state = {
+			posts: posts
+		};
+	}
+
 	showComments = (comentsId) => {
 		const postComments = document.querySelector(comentsId);
 		// console.log(postComments.className);
@@ -16,7 +23,7 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<SearchBar />
-				<PostContainer posts={posts} showComments={this.showComments} />
+				<PostContainer posts={this.state.posts} showComments={this.showComments} />
 			</div>
 		);
 	}
