@@ -22,6 +22,7 @@ const PostContainer = (props) => {
 					seen={post.seen}
 					comments={post.comments}
 					commentsId={post.id}
+					loggedUser={props.loggedUser}
 				/>
 			))}
 		</div>

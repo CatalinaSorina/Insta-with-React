@@ -13,6 +13,8 @@ class App extends React.Component {
 		};
 	}
 
+	loggedUser = 'username';
+
 	giveLove = (postLikes) => {
 		const clicked = postLikes.target;
 		// console.log(clicked);
@@ -36,7 +38,12 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<SearchBar />
-				<PostContainer posts={this.state.posts} giveLove={this.giveLove} showComments={this.showComments} />
+				<PostContainer
+					posts={this.state.posts}
+					giveLove={this.giveLove}
+					showComments={this.showComments}
+					loggedUser={this.loggedUser}
+				/>
 			</div>
 		);
 	}

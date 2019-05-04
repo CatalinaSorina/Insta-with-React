@@ -23,6 +23,7 @@ const Post = (props) => {
 			<CommentSection
 				id={'comments' + props.commentsId}
 				newComment={'comment' + props.commentsId}
+				loggedUser={props.loggedUser}
 				key={'comments' + props.commentsId}
 				comments={props.comments}
 			/>
