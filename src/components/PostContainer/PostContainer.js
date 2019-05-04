@@ -9,6 +9,7 @@ const PostContainer = () => {
 		<div>
 			{posts.map((post) => (
 				<Post
+					key={post.id}
 					userImg={post.userimg}
 					username={post.username}
 					img={post.imageUrl}
