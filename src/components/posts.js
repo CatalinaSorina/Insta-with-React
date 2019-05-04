@@ -2,17 +2,13 @@ const posts = [
 	{
 		id: 'A',
 		username: 'scarface',
+		text: 'Focus on you...',
 		userimg: 'https://cdn140.picsart.com/266948527031202.jpg',
 		imageUrl: 'https://cdn141.picsart.com/294396278147201.jpg',
 		likes: 400,
 		seen: 1040,
 		timestamp: 'May 15th 2019, 16:02:40 pm',
 		comments: [
-			{
-				id: '1',
-				username: 'scarface',
-				text: 'Focus on you...'
-			},
 			{
 				id: '2',
 				username: 'dasigndasy',
@@ -28,17 +24,13 @@ const posts = [
 	{
 		id: 'B',
 		username: 'kawaii',
+		text: 'Catch ya!',
 		userimg: 'https://cdn131.picsart.com/237287389058202.jpg',
 		imageUrl: 'https://cdn141.picsart.com/294512243181201.jpg',
 		likes: 4307,
 		seen: 4728,
 		timestamp: 'May 3th 2019, 13:00:06 pm',
 		comments: [
-			{
-				id: '4',
-				username: 'kawaii',
-				text: 'Catch ya!'
-			},
 			{
 				id: '5',
 				username: 'frittas',
@@ -59,17 +51,13 @@ const posts = [
 	{
 		id: 'C',
 		username: 'playhearthstone',
+		text: 'I will buy this car!',
 		userimg: 'https://cdn65.picsart.com/190599638002202.jpg',
 		imageUrl: 'https://cdn141.picsart.com/294541211244201.jpg',
 		likes: 5306,
 		seen: 8280,
 		timestamp: 'April 1th 2019, 08:26:10 am',
 		comments: [
-			{
-				id: '9',
-				username: 'playhearthstone',
-				text: 'I will buy this car!'
-			},
 			{
 				id: '10',
 				username: 'vina',

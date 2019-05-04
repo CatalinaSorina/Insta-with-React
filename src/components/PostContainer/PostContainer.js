@@ -12,12 +12,13 @@ const PostContainer = () => {
 					key={post.id}
 					userImg={post.userimg}
 					username={post.username}
+					text={post.text}
 					img={post.imageUrl}
 					likes={post.likes}
 					commentsNumber={post.comments.length}
 					seen={post.seen}
-                    comments={post.comments}
-                    commentsId={post.id}
+					comments={post.comments}
+					commentsId={post.id}
 				/>
 			))}
 		</div>

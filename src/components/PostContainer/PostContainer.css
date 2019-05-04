@@ -5,17 +5,22 @@
 	justify-content: center;
 	font-family: cursive;
 	font-size: 1.5rem;
+	cursor: default;
 }
 
 .post {
 	display: flex;
-	width: 28rem;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	width: 28rem;
 	margin: 3rem;
 	padding: 2rem;
 	box-shadow: 0 0 0.9rem 0.01rem black;
+}
+
+.userPost {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
 }
 
 .userPic {
@@ -24,7 +29,21 @@
 	border-radius: 50%;
 }
 
+.userPost span img {
+	vertical-align: sub;
+}
+
+.username {
+	margin-left: 0.5rem;
+	vertical-align: super;
+}
+
+.userCommentPost {
+	font-size: 1rem;
+}
+
 .postImg {
+	align-self: center;
 	width: 30rem;
 	height: 28rem;
 	margin: 1rem;
@@ -33,7 +52,7 @@
 
 .postFrequency {
 	font-size: 1rem;
-	cursor: default;
+	align-self: start;
 }
 
 .postFrequency button {
