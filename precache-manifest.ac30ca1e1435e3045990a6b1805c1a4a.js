@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a313bbc1c69b401243e9196c6d167098",
+    "revision": "3382951541425b740cbf0106e6e88a6e",
     "url": "/Insta-with-React/index.html"
   },
   {
-    "revision": "3952863b8e67548649c2",
+    "revision": "3ef30769d5908cce49ee",
     "url": "/Insta-with-React/static/css/main.7c89110e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Insta-with-React/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "3952863b8e67548649c2",
-    "url": "/Insta-with-React/static/js/main.d8cfa47f.chunk.js"
+    "revision": "3ef30769d5908cce49ee",
+    "url": "/Insta-with-React/static/js/main.92c06371.chunk.js"
   },
   {
     "revision": "3055ec310a6e67597475",
