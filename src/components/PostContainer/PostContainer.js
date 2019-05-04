@@ -14,6 +14,7 @@ const PostContainer = (props) => {
 					text={post.text}
 					img={post.imageUrl}
 					likes={post.likes}
+					showComments={props.showComments}
 					commentsNumber={post.comments.length}
 					seen={post.seen}
 					comments={post.comments}
