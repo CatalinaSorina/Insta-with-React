@@ -33,4 +33,13 @@
 
 .postFrequency {
 	font-size: 1rem;
+	cursor: default;
+}
+
+.postFrequency button {
+	background-color: white;
+	font: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 
 import Comment from './Comment';
 
+import './CommentSection.css';
+
 class CommentSection extends React.Component {
 	constructor() {
 		super();
@@ -19,7 +21,7 @@ class CommentSection extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div className="commentsSection">
 				{this.state.comments.map((comment) => (
 					<Comment key={comment.id} username={comment.username} comment={comment.text} />
 				))}
