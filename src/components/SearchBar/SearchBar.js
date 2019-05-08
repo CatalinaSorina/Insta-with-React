@@ -2,10 +2,10 @@ import React from 'react';
 
 import './SearchBar.css';
 
-const SearchBar = () => {
+const SearchBar = (props) => {
 	return (
 		<div className="searchBar">
-			<input placeholder="search..." />
+			<input placeholder="search..." onChange={props.search} />
 		</div>
 	);
 };
