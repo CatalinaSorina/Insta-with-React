@@ -1,9 +1,9 @@
 import React from 'react';
 import './Insta.css';
 
-import SearchBar from './components/SearchBar/SearchBar';
-import posts from './components/posts';
-import PostContainer from './components/PostContainer/PostContainer';
+import SearchBar from '../SearchBar/SearchBar';
+import posts from '../posts';
+import PostContainer from '../PostContainer/PostContainer';
 
 class Insta extends React.Component {
 	constructor() {
@@ -13,8 +13,6 @@ class Insta extends React.Component {
 			filterPosts: posts
 		};
 	}
-
-	loggedUser = this.props.username;
 
 	search = (e) => {
 		const textSearch = e.target.value.toLowerCase();
@@ -51,12 +49,13 @@ class Insta extends React.Component {
 	render() {
 		return (
 			<div className="Insta">
+				<button onClick={this.props.logout}>Log out</button>
 				<SearchBar search={this.search} />
 				<PostContainer
 					posts={this.state.filterPosts}
 					giveLove={this.giveLove}
 					showComments={this.showComments}
-					loggedUser={this.loggedUser}
+					loggedUser={this.props.username}
 				/>
 			</div>
 		);
