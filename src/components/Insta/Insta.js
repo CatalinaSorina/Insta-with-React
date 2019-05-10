@@ -49,8 +49,8 @@ class Insta extends React.Component {
 	render() {
 		return (
 			<div className="Insta">
-				<button onClick={this.props.logout}>Log out</button>
-				<SearchBar search={this.search} />
+				<button className="logout" onClick={this.props.logout}>Log out</button>
+				<SearchBar search={this.search} user={this.props.username}/>
 				<PostContainer
 					posts={this.state.filterPosts}
 					giveLove={this.giveLove}

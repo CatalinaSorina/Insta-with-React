@@ -16,3 +16,17 @@
 .Insta-link {
 	color: #61dafb;
 }
+
+.logout {
+	padding: 0.4rem;
+    border-radius: 1rem;
+    border:0.2rem groove darkred;
+    background-color:rgba(235, 106, 106, 0.5);
+    color:darkred;
+    margin:1rem;
+    outline: none;
+}
+.logout:hover {
+	background-color: rgb(94, 17, 17);
+    color:rgb(255, 217, 49);
+}
