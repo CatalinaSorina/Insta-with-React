@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Log.css';
+
 class Log extends React.Component {
     constructor(){
         super();
@@ -20,16 +22,18 @@ class Log extends React.Component {
     render() {
         return (
             <div className="login">
-                <div>
+                <div className="credinals">
                     <label>User name:</label>
-                    <input id="user" onChange={this.setUser}/>
+                    <input onChange={this.setUser}/>
+                </div>
+                <div className="credinals">
+                    <label>Password:</label>
+                    <input onChange={this.setPass}/>
                 </div>
                 <div>
-                    <label>Password:</label>
-                    <input id="pass" onChange={this.setPass}/>
+                    <button className="logBt" onClick={()=>this.props.log(this.state.username)}>log in</button>
+                    <button className="regNowBt" onClick={this.props.registerNow}>Register now.</button>
                 </div>
-                <button className="logBt" onClick={()=>this.props.log(this.state.username)}>log in</button>
-                <button onClick={this.props.registerNow}>Register now.</button>
             </div>
         )
     }
