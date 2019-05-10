@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Register.css';
+
 class Register extends React.Component {
     constructor(){
         super();
@@ -20,13 +22,13 @@ class Register extends React.Component {
     render(){
         return (
             <div className="register">
-                <div>
+                <div className="regCredinals">
                     <label>User name:</label>
-                    <input id="regUser" placeholder="username" onChange={this.setUser}/>
+                    <input placeholder="username" onChange={this.setUser}/>
                 </div>
-                <div>
+                <div className="regCredinals">
                     <label>Password:</label>
-                    <input id="regPass" placeholder="password" onChange={this.setPass}/>
+                    <input placeholder="password" onChange={this.setPass}/>
                 </div>
                 <button className="regBt" onClick={()=>this.props.register(this.state.username,this.state.password)}>save</button>
             </div>
