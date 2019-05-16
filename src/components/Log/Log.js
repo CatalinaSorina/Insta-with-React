@@ -2,6 +2,8 @@ import React from 'react';
 
 import './Log.css';
 
+import users from './users';
+
 class Log extends React.Component {
     constructor(){
         super();
@@ -9,6 +11,26 @@ class Log extends React.Component {
             username:'',
             password:''
         }
+    }
+
+    componentDidMount(){
+        // console.log(users);
+    }
+
+    checkUser = () => {
+        let falseUser=true;
+        users.map((user)=>{
+            if(user.username===this.state.username){
+                if (user.password===this.state.password){
+                    falseUser=false;
+                   return this.props.log(this.state.username);
+                }
+                falseUser=false;
+                return alert("Wrong password");
+            }
+            return null;
+        })
+        return (!falseUser)? null:alert(this.state.username+" may not be registered.");
     }
 
     setUser = (e) => {
@@ -28,10 +50,10 @@ class Log extends React.Component {
                 </div>
                 <div className="credinals">
                     <label>Password:</label>
-                    <input onChange={this.setPass}/>
+                    <input type="password" onChange={this.setPass}/>
                 </div>
                 <div>
-                    <button className="logBt" onClick={()=>this.props.log(this.state.username)}>log in</button>
+                    <button className="logBt" onClick={this.checkUser}>log in</button>
                     <button className="regNowBt" onClick={this.props.registerNow}>Register now.</button>
                 </div>
             </div>

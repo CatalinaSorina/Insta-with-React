@@ -15,10 +15,11 @@
     margin:1rem;
     font:1rem cursive;
     color: rgb(36, 51, 37);
+    align-self: flex-end;
 }
 
 .regCredinals input {
-    width: 7rem;  
+    width: 7rem;
     background-color: rgba(106, 235, 192, 0.5);
     border:0.1rem solid rgb(36, 51, 37);
     color:rgb(36, 51, 37);
