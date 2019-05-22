@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Insta-with-React/static/css/main.7c89110e.chunk.css",
-    "main.js": "/Insta-with-React/static/js/main.92c06371.chunk.js",
-    "main.js.map": "/Insta-with-React/static/js/main.92c06371.chunk.js.map",
+    "main.css": "/Insta-with-React/static/css/main.b7fc492a.chunk.css",
+    "main.js": "/Insta-with-React/static/js/main.129c3264.chunk.js",
+    "main.js.map": "/Insta-with-React/static/js/main.129c3264.chunk.js.map",
     "runtime~main.js": "/Insta-with-React/static/js/runtime~main.df435ebd.js",
     "runtime~main.js.map": "/Insta-with-React/static/js/runtime~main.df435ebd.js.map",
     "static/js/2.d6a534e5.chunk.js": "/Insta-with-React/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/Insta-with-React/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/Insta-with-React/index.html",
-    "precache-manifest.ac30ca1e1435e3045990a6b1805c1a4a.js": "/Insta-with-React/precache-manifest.ac30ca1e1435e3045990a6b1805c1a4a.js",
+    "precache-manifest.19859eaf49b80850f00e126893c8c89a.js": "/Insta-with-React/precache-manifest.19859eaf49b80850f00e126893c8c89a.js",
     "service-worker.js": "/Insta-with-React/service-worker.js",
-    "static/css/main.7c89110e.chunk.css.map": "/Insta-with-React/static/css/main.7c89110e.chunk.css.map"
+    "static/css/main.b7fc492a.chunk.css.map": "/Insta-with-React/static/css/main.b7fc492a.chunk.css.map"
   }
 }

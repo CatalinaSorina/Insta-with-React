@@ -1,0 +1,43 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding: 5rem;
+    width: 18rem;
+    background-color: rgba(106, 235, 192, 0.5);
+    border:0.1rem solid rgb(36, 51, 37);
+    box-shadow: 0 0 4rem rgb(36, 51, 37);
+}
+
+.regCredinals {
+    margin:1rem;
+    font:1rem cursive;
+    color: rgb(36, 51, 37);
+    align-self: flex-end;
+}
+
+.regCredinals input {
+    width: 7rem;
+    background-color: rgba(106, 235, 192, 0.5);
+    border:0.1rem solid rgb(36, 51, 37);
+    color:rgb(36, 51, 37);
+    margin:0.1rem;
+    padding: 0.3rem;
+    outline-color: rgb(255, 125, 49);
+}
+
+.regBt {
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border:0.2rem groove rgb(36, 51, 37);
+    background-color:rgba(106, 235, 192, 0.5);
+    color:rgb(36, 51, 37);
+    margin:1rem;
+    outline: none;
+}
+.regBt:hover {
+    background-color: rgb(36, 51, 37);
+    color:rgb(255, 125, 49);
+}
