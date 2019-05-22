@@ -5,6 +5,7 @@ Click HERE: https://catalinasorina.github.io/Insta-with-React/
 What you can do:  
 ‧ Create new account;  
 ‧ Log in;  
+‧ Search a post by the author and the post description;  
 ‧ Comment a post;  
 ‧ Heart(♡) a post;  
 
